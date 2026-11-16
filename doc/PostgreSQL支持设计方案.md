@@ -309,7 +309,7 @@ ReplicationActionResult
 └── message
 ```
 
-这样 MySQL、PostgreSQL、未来国产数据库都能统一表达：
+这样 MySQL、PostgreSQL 都能统一表达：
 
 - 已完成
 - 已跳过
@@ -696,4 +696,4 @@ PostgreSQL 支持的关键不是替换 JDBC URL，而是把当前 MySQL 强绑�
   → 最后补齐测试矩阵和外部 HA 工具观察模式
 ```
 
-这样可以在不破坏现有 MySQL 能力的前提下，让 `DBGuardian-Spring-Boot-Starter` 和 `DBGuardian-Spring-Boot3-Starter` 同时支持 PostgreSQL，并为后续 Oracle、SQL Server、国产数据库适配保留统一扩展路径。
+这样可以在不破坏现有 MySQL 能力的前提下，让 `DBGuardian-Spring-Boot-Starter` 和 `DBGuardian-Spring-Boot3-Starter` 同时支持 PostgreSQL，并为后续 Oracle 适配保留统一扩展路径。
